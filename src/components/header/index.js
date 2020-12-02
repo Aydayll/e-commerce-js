@@ -6,14 +6,14 @@ const Header = () => {
     tagHeader.innerHTML = `
     <div class = "contanier">
     <div class="header__top">
-        ${Contact().outerHTML}
-        ${Nav().outerHTML}
+        ${Contact}
+        ${Nav}
     </div>
     <div class="header__middle"></div>
     <div class="header__bottom"></div>
     </div>
     `;
-    document.body.appendChild (tagHeader);
+    document.body.append (tagHeader);
     return tagHeader;
 };
 Header();

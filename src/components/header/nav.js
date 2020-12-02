@@ -1,12 +1,12 @@
 const Nav = () => {
-    const navList = document.createElement('ul');
-    navList.innerHTML= 
+    const tagNav = document.createElement('ul');
+    tagNav.innerHTML= 
     `
     <li><a href="">Blog</a></li>
     <li><a href="">About Us</a></li>
     <li><a href="">Careers</a></li>
     `;
-    return navList;
+    return tagNav .outerHTML;
 };
 
-export default Nav;
+export default Nav();

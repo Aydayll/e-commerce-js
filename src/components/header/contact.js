@@ -6,7 +6,7 @@ const Contact = () => {
     <li><a href="">+420 336 775 664</a></li>
     <li><a href="">info@freshnesecom.com</a></li>
     `;
-    return contactList;
+    return contactList .outerHTML;
 };
 
-export default Contact;
+export default Contact();
