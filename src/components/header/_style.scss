@@ -17,5 +17,25 @@
     &__nav_li{
         margin: 0 20px 0 0px;
     }
+    &__nav_a{
+        color: $color-green;
+        text-decoration: none;
+        &:hover{
+            color: $color-black;
+            cursor: pointer;
+            transition: 0.4s;
+        }
+
+    }
+    &__contact_a{
+        text-decoration: none;
+        color: $color-black;
+        &:hover{
+            color: $color-green;
+            cursor: pointer;
+            transition: 0.4s;
+        }
+       
+    }
     
 }
