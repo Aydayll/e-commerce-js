@@ -1,6 +1,21 @@
-.header__top{
-    display: flex;
-}
-.header__middle{
-    display: flex;
+
+.header{
+    &__top{
+        display: flex;
+        justify-content: space-between;
+         
+    }
+    &__nav{
+        display:flex ;  
+        
+    }
+    &__contact{
+        display: flex;
+       
+       
+    }
+    &__nav_li{
+        margin: 0 20px 0 0px;
+    }
+    
 }
