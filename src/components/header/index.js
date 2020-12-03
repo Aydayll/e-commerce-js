@@ -9,7 +9,6 @@ const Header = () => {
     <div class="header__top">
         ${Contact}
         ${Nav}
-     
     </div>
     <div class="header__middle">
     ${Logo}

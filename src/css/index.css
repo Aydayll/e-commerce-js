@@ -1,7 +1,7 @@
 .container {
   max-width: 1260px;
   margin: auto;
-  padding: 0 45px;
+  padding: 40px 45px;
 }
 
 li {
@@ -58,6 +58,6 @@ li {
   transition: 0.4s;
 }
 
-.header__logo {
-  padding-left: 45px;
+.header__middle {
+  padding: 40px 45px;
 }
