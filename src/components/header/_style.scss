@@ -1,18 +1,13 @@
-
 .header{
     &__top{
         display: flex;
-        justify-content: space-between;
-         
+        justify-content: space-between;   
     }
     &__nav{
-        display:flex ;  
-        
+        display:flex ;   
     }
     &__contact{
         display: flex;
-       
-       
     }
     &__nav_li{
         margin: 0 20px 0 0px;
@@ -25,7 +20,6 @@
             cursor: pointer;
             transition: 0.4s;
         }
-
     }
     &__contact_a{
         text-decoration: none;
@@ -36,6 +30,9 @@
             transition: 0.4s;
         }
        
+    }
+    &__logo{
+        padding-left: 45px;
     }
     
 }

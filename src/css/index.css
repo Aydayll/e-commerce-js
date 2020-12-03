@@ -57,3 +57,7 @@ li {
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
+
+.header__logo {
+  padding-left: 45px;
+}
