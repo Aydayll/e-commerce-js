@@ -1,12 +1,22 @@
 
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container{
     max-width: 1260px;
-    margin: auto;
-    padding: 40px 45px;
-   
+    margin: 0 auto;
+    padding: 0 45px;
 }
 li{
     list-style-type: none;
     text-decoration: none;
+}
+a {
+    display: flex;
+    text-decoration: none;
+}
+span{
+    display: flex;
 }

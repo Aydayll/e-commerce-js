@@ -1,7 +1,9 @@
 .header{
     &__top{
+        padding: 16px 0;
         display: flex;
         justify-content: space-between;   
+        border-bottom: 2px solid #f9f9f9;
     }
     &__nav{
         display:flex ;   
@@ -10,11 +12,14 @@
         display: flex;
     }
     &__nav_li{
-        margin: 0 20px 0 0px;
+        margin-right: 38px;
+        &:last-child{
+            margin-right: 0;
+        }
     }
     &__nav_a{
         color: $color-green;
-        text-decoration: none;
+        
         &:hover{
             color: $color-black;
             cursor: pointer;
@@ -22,18 +27,22 @@
         }
     }
     &__contact_a{
-        text-decoration: none;
         color: $color-black;
         &:hover{
             color: $color-green;
+            opacity: 0.6;
             cursor: pointer;
             transition: 0.4s;
         }
-       
     }
     &__middle{
+        display: flex;
         padding: 40px 45px;
+   
     }
-    
+    &__icons{
+        display: flex;
+       
+    }
     
 }
