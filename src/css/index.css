@@ -4,7 +4,9 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
+body{
+  font-family: 'Poppins', sans-serif;
+}
 .container {
   max-width: 1260px;
   margin: 0 auto;
@@ -108,4 +110,7 @@ img {
   max-height: 42px;
   border-radius: 12px;
   
+}
+.search-bar__list{
+  max-height: 23px;
 }

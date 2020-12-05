@@ -64,7 +64,9 @@
     background-color:$color-lightGray;
     max-height: 42px;
     border-radius: 12px;
-    
+    &__list{
+    max-height: 23px;
+    }
 }
 
 
