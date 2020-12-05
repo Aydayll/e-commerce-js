@@ -29,6 +29,10 @@ span {
   display: flex;
 }
 
+img {
+  max-width: 100%;
+}
+
 .header__top {
   padding: 16px 45px;
   display: -webkit-box;

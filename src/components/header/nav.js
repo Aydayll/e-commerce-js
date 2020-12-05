@@ -1,11 +1,12 @@
 const Nav = () => {
-    const tagNav = document.createElement('ul');
-    tagNav.className = "header__nav"
-    tagNav.innerHTML= 
-    `
-    <li class= "header__nav_li"><a class= "header__nav_a" href="">Blog</a></li>
-    <li class= "header__nav_li"><a class= "header__nav_a" href="">About Us</a></li>
-    <li class= "header__nav_li"><a class= "header__nav_a" href="">Careers</a></li>
+    const tagNav = document.createElement('nav');
+    tagNav.className = "header__nav nav"
+    tagNav.innerHTML= `
+    <ul class="nav__list">
+    <li class= "header__item"><a class="nav__link"href="#">Blog</a></li>
+    <li class= "header__item"><a class="nav__link"href="#">About Us</a></li>
+    <li class= "header__item"><a class="nav__link"href="#">Careers</a></li>
+    </ul>
     `;
     return tagNav .outerHTML;
 };
