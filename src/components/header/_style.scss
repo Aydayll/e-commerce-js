@@ -7,7 +7,7 @@
     }
     &__middle{
         display: flex;
-        padding: 40px 45px;
+      
    
     }
     &__icons{
@@ -56,6 +56,10 @@
             cursor: pointer;
         }
     }
+}
+.search-bar{
+    background-color:$color-lightGray;
+    max-height: 42px;
 }
 
 
