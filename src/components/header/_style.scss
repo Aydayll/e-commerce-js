@@ -25,11 +25,14 @@
         }
     }
     &__link{
+        @include font( $font-open, 12px, 400, 16px,);
+        color: $color-black;
+        transition: 0.4s;
         &:hover{
             color: $color-green;
             opacity: 0.6;
             cursor: pointer;
-            transition: 0.4s;
+            
         }
     }
 }
@@ -45,11 +48,14 @@
 
     }
     &__link{
+        @include font( $font-open, 12px, 400, 16px,);
         color: $color-green;
+        transition: 0.4s;
         &:hover{
             color: $color-black;
             cursor: pointer;
-            transition: 0.4s;
         }
     }
 }
+
+

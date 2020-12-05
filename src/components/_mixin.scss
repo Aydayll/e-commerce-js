@@ -1,7 +1,9 @@
-@mixin font($family, $size, $weight: 700) {
+@mixin font($family, $size, $weight: 700, $line) {
 	font-family: $family;
 	font-size: $size;
 	font-weight: $weight;
+	line-height: $line;
+	font-style: normal;
 }
 @mixin position($pos, $top: auto, $right: auto, $bottom: auto, $left: auto) {
 	position: $pos;
