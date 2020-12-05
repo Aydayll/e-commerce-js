@@ -8,8 +8,7 @@
     &__middle{
         display: flex;
         justify-content: space-between;
-      
-   
+        padding: 45px 0;
     }
     &__icons{
         display: flex;
@@ -59,8 +58,12 @@
     }
 }
 .search-bar{
+    display: flex;
+    padding: 10px 16px;
     background-color:$color-lightGray;
     max-height: 42px;
+    border-radius: 12px;
+    
 }
 
 

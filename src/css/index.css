@@ -49,14 +49,9 @@ img {
   display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
-  padding: 0 45px;
+  padding: 44px 45px;
 }
 
-.header__icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
 
 .contact {
   display: -webkit-box;
@@ -103,4 +98,13 @@ img {
   cursor: pointer;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+}
+
+.search-bar{
+  display: flex;
+  padding: 10px 16px;
+  background-color:#f9f9f9;
+  max-height: 42px;
+  border-radius: 12px;
+  
 }

@@ -1,20 +1,22 @@
 const searchBar = () => {
   const div = document.createElement('div');
 
-div.className="header__search-bar search-bar"
+div.className="header__search-bar search-bar";
+
 div.innerHTML =`
 <ul>
-   <h3 class="search-title">All categories</h3>
+   <h3 class="search-bar__title">All categories</h3>
    <li class="search-bar__item"><a class="search-bar__link" href="#">Random Text</a></li>
    <li class="search-bar__item"><a class="search-bar__link" href="#">Random Text</a></li>
    <li class="search-bar__item"><a class="search-bar__link" href="#">Random Text</a></li>
 </ul>
 <label>
-<input type= "text" placeholder="Search Products, categories ..."/>
+   <input type= "text" placeholder="Search Products, categories ..."/>
 </label>
-<img src ="./src/images/search.svg"/>
-`
-
+<button>
+   <img src ="./src/images/search.svg"/>
+</button>
+`;
 
 return div.outerHTML;
 };
