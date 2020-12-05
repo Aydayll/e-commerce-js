@@ -1,6 +1,5 @@
 const searchBar = () => {
   const div = document.createElement('div');
-  const ul = document.createElement('ul');
 
 div.className="header__search-bar search-bar"
 div.innerHTML =`
@@ -9,8 +8,8 @@ div.innerHTML =`
    <li class="search-bar__item"><a class="search-bar__link" href="#">Random Text</a></li>
    <li class="search-bar__item"><a class="search-bar__link" href="#">Random Text</a></li>
    <li class="search-bar__item"><a class="search-bar__link" href="#">Random Text</a></li>
-
-</ul>`
+</ul>
+`
 
 
 return div.outerHTML;
