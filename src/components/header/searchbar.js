@@ -11,7 +11,7 @@ div.innerHTML =`
    <li class="search-bar__item"><a class="search-bar__link" href="#">Random Text</a></li>
 </ul>
 <label>
-   <input type= "text" placeholder="Search Products, categories ..."/>
+   <input class="search-bar__input" type= "text" placeholder="Search Products, categories ..."/>
 </label>
 <button>
    <img src ="./src/images/search.svg"/>
