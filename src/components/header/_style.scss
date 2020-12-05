@@ -5,36 +5,6 @@
         justify-content: space-between;   
         border-bottom: 2px solid #f9f9f9;
     }
-    &__nav{
-        display:flex ;   
-    }
-    &__contact{
-        display: flex;
-    }
-    &__nav_li{
-        margin-right: 38px;
-        &:last-child{
-            margin-right: 0;
-        }
-    }
-    &__nav_a{
-        color: $color-green;
-        
-        &:hover{
-            color: $color-black;
-            cursor: pointer;
-            transition: 0.4s;
-        }
-    }
-    &__contact_a{
-        color: $color-black;
-        &:hover{
-            color: $color-green;
-            opacity: 0.6;
-            cursor: pointer;
-            transition: 0.4s;
-        }
-    }
     &__middle{
         display: flex;
         padding: 40px 45px;
@@ -45,4 +15,41 @@
        
     }
     
+}
+.contact{
+    display: flex;
+    &__item{
+        margin-right: 33px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    &__link{
+        &:hover{
+            color: $color-green;
+            opacity: 0.6;
+            cursor: pointer;
+            transition: 0.4s;
+        }
+    }
+}
+.nav{
+    &__list{
+        display: flex;   
+    }
+    &__item{
+        margin-right: 38px;
+        &:last-child{
+           margin-right: 0;
+       }
+
+    }
+    &__link{
+        color: $color-green;
+        &:hover{
+            color: $color-black;
+            cursor: pointer;
+            transition: 0.4s;
+        }
+    }
 }
