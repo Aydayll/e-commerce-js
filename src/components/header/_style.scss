@@ -72,6 +72,9 @@
         border: none;
         outline: none;
     }
+    &__title{
+        @include font(16px, 700, 23px)
+    }
 }
 
 
