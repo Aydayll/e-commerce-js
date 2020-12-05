@@ -2,6 +2,7 @@ import Contact from './contact.js';
 import Nav from './nav.js';
 import Logo from './logo.js';
 import searchBar from './searchbar.js';
+import System from './system.js'
 import Layer from './layer.js';
 import Basket from './basket.js';
 
@@ -16,6 +17,7 @@ const Header = () => {
     <div class="header__middle">
     ${Logo}
     ${searchBar}
+    ${System}
     ${Layer}
     ${Basket}
     </div>
