@@ -1,4 +1,4 @@
-@mixin font($family, $size, $weight: 700, $line) {
+@mixin font($family:"Poppins", sans-serif, $size, $weight: 700, $line) {
 	font-family: $family;
 	font-size: $size;
 	font-weight: $weight;
