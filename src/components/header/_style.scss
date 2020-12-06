@@ -108,6 +108,7 @@
         @include font($font-poppins, 15px, 700, 22px);
         position: relative;
         cursor: pointer;
+        margin-bottom: 5px;
         img{
             position: absolute;
             top: 50%;
@@ -134,8 +135,7 @@
         &::placeholder{
             @include font($font-open, 14px, 400, 19px);
             color: $color-gray;
-        }
-        
+        }  
     }
     &__btn{
         display: flex;
@@ -145,6 +145,12 @@
         outline: none;
         background-color: transparent;
         cursor: pointer;
+        img{
+            transition: 0.3s;
+        }
+        &.is-active{
+            transform: rotate(-90deg);
+        }
     }
 }
 

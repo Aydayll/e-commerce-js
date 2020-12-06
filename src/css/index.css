@@ -166,6 +166,7 @@ img {
   line-height: 22px;
   position: relative;
   cursor: pointer;
+  margin-bottom: 5px;
 }
 
 .search-bar__title img {
@@ -211,4 +212,12 @@ img {
   outline: none;
   background-color: transparent;
   cursor: pointer;
+}
+
+.search-bar__btn img {
+  transition: 0.3s;
+}
+
+.search-bar__btn.is-active {
+  transform: rotate(-90deg);
 }

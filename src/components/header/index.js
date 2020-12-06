@@ -27,10 +27,16 @@ const Header = () => {
     document.body.append (tagHeader);
 const ul = document.querySelector('.search-bar__list');
 const h3 = document.querySelector('.search-bar__title');
+const button = document.querySelector('.search-bar__btn');
+
+button.addEventListener('click', () => {
+    button.classList.toggle('is-active');
+})
+
 h3.addEventListener('click', () => {
     ul.classList.toggle('is-active');
     h3.classList.toggle('is-active');
-})
+});
     return tagHeader;
 };
 Header();
