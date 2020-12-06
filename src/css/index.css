@@ -229,3 +229,8 @@ img {
 .system__item {
   margin-left: 40px;
 }
+
+.system__count {
+  background-color: #E5704B;
+  border-radius: 50%;
+}

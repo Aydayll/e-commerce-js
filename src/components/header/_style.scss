@@ -160,6 +160,11 @@
     &__item{
         margin-left: 40px;
     }
+    &__count{
+        background-color: $color-red;
+        border-radius: 50%;
+        
+    }
 }
 
 
