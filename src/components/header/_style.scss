@@ -67,19 +67,32 @@
         max-height: 23px;
         &.is-active{
             li{ 
-                 display: block;  
+                 display: block; 
+                 animation: fading 0.3s forwards;
+        @keyframes fading  {
+            from{
+                height: 0;
+            }
+            to{
+                height: 40px;
+            }
+        } 
             }   
     }
         }
     &__item{
         display: none;
         background-color: $color-lightGray;
+        &:last-child{
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
     }
     &__link{
         @include font($font-open, 14px, 400, 19px); 
         padding: 10px;
         color: $color-gray;
-        animation: fading 2s forwards;
+
     }
     &__title{
         @include font($font-poppins, 15px, 700, 22px);

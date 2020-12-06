@@ -115,11 +115,26 @@ img {
 
 .search-bar__list.is-active li {
   display: block;
+  animation: fading 0.3s forwards;
+}
+
+@keyframes fading {
+  from {
+    height: 0;
+  }
+  to {
+    height: 40px;
+  }
 }
 
 .search-bar__item {
   display: none;
   background-color: #f9f9f9;
+}
+
+.search-bar__item:last-child {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .search-bar__link {
@@ -129,7 +144,6 @@ img {
   line-height: 19px;
   padding: 10px;
   color: #d1d1d1;
-  animation: fading 2s forwards;
 }
 
 .search-bar__title {
