@@ -161,10 +161,20 @@
         margin-left: 40px;
     }
     &__count{
+        @include font($font-open, 12px, 600, 18px);
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        left: 0;
+        bottom: 0;
         background-color: $color-red;
-        border-radius: 50%;
-        
+        color: $color-white;
+        border-radius: 50%;  
+        min-width: 16px;
+        min-height: 16px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
     }
 }
+
 
 

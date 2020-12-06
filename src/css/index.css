@@ -231,6 +231,19 @@ img {
 }
 
 .system__count {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
   background-color: #E5704B;
+  color: #fff;
   border-radius: 50%;
+  min-width: 16px;
+  min-height: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
