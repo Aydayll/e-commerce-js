@@ -25,10 +25,10 @@ const Header = () => {
     </div>
     `;
     document.body.append (tagHeader);
-const li = document.querySelectorAll('.search-bar__item');
+const ul = document.querySelector('.search-bar__list');
 const h3 = document.querySelector('.search-bar__title');
 h3.addEventListener('click', () => {
-    li.forEach(item => item.classList.toggle('is-active'))
+    ul.classList.toggle('is-active');
 })
     return tagHeader;
 };

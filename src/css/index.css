@@ -111,12 +111,12 @@ img {
   display: none;
 }
 
-.search-bar__item.is-active {
-  display: block;
-}
-
 .search-bar__list {
   max-height: 23px;
+}
+
+.search-bar__list.is-active li {
+  display: block;
 }
 
 .search-bar__title {
