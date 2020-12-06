@@ -225,3 +225,7 @@ img {
 .system__list {
   display: flex;
 }
+
+.system__item {
+  margin-left: 40px;
+}
