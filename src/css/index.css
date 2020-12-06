@@ -159,8 +159,12 @@ img {
   position: absolute;
   top: 50%;
   right: -20px;
-  max-width: 10px;
-  transform: translateY(-50%);
+  max-width: 16px;
+  transition: 0.3s;
+}
+
+.search-bar__title.is-active img {
+  transform: rotate(180deg) translateY(50%);
 }
 
 .search-bar__input {

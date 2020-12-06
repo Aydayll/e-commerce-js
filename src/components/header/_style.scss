@@ -102,8 +102,13 @@
             position: absolute;
             top: 50%;
             right: -20px;
-            max-width: 10px;
-            transform: translateY(-50%);
+            max-width: 16px;
+            transition: 0.3s;
+        }
+        &.is-active{
+            img{
+                transform: rotate(180deg) translateY(50%);;
+            }
         }
     }
     &__input{

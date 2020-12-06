@@ -29,6 +29,7 @@ const ul = document.querySelector('.search-bar__list');
 const h3 = document.querySelector('.search-bar__title');
 h3.addEventListener('click', () => {
     ul.classList.toggle('is-active');
+    h3.classList.toggle('is-active');
 })
     return tagHeader;
 };
