@@ -42,6 +42,7 @@ img {
 .header__middle {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 45px 45px;
 }
 
@@ -107,16 +108,28 @@ img {
   border-radius: 12px;
 }
 
-.search-bar__item {
-  display: none;
-}
-
 .search-bar__list {
+  width: 120px;
   max-height: 23px;
 }
 
 .search-bar__list.is-active li {
   display: block;
+}
+
+.search-bar__item {
+  display: none;
+  background-color: #f9f9f9;
+}
+
+.search-bar__link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  padding: 10px;
+  color: #d1d1d1;
+  animation: fading 2s forwards;
 }
 
 .search-bar__title {

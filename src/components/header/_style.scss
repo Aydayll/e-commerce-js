@@ -8,6 +8,7 @@
     &__middle{
         display: flex;
         justify-content: space-between;
+        align-items: center;
         padding: 45px 45px;
     }
     
@@ -61,18 +62,24 @@
     background-color:$color-lightGray;
     max-height: 42px;
     border-radius: 12px;
+    &__list{
+        width: 120px;
+        max-height: 23px;
+        &.is-active{
+            li{ 
+                 display: block;  
+            }   
+    }
+        }
     &__item{
         display: none;
+        background-color: $color-lightGray;
     }
-    &__list{
-    max-height: 23px;
-    &.is-active{
-        li{ 
-             padding: 10px;
-             display: block;
-             background-color: ;
-        }   
-}
+    &__link{
+        @include font($font-open, 14px, 400, 19px); 
+        padding: 10px;
+        color: $color-gray;
+        animation: fading 2s forwards;
     }
     &__title{
         @include font($font-poppins, 15px, 700, 22px);
