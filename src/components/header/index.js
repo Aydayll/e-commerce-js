@@ -2,9 +2,7 @@ import Contact from './contact.js';
 import Nav from './nav.js';
 import Logo from './logo.js';
 import searchBar from './searchbar.js';
-import System from './system.js'
-import Layer from './layer.js';
-import Basket from './basket.js';
+import System from './system.js';
 
 const Header = () => {
     const tagHeader = document.createElement ('header');
@@ -18,8 +16,6 @@ const Header = () => {
     ${Logo}
     ${searchBar}
     ${System}
-    ${Layer}
-    ${Basket}
     </div>
     <div class="header__bottom"></div>
     </div>
