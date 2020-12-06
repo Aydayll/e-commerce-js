@@ -61,8 +61,16 @@
     background-color:$color-lightGray;
     max-height: 42px;
     border-radius: 12px;
+    &__item{
+        display: none;
+    }
     &__list{
     max-height: 23px;
+    &.is-active{
+        li{
+            display: block;
+        }
+    }
     }
     &__title{
         @include font($font-poppins, 15px, 700, 22px);

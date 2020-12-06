@@ -25,6 +25,7 @@ const Header = () => {
     </div>
     `;
     document.body.append (tagHeader);
+const li = document.querySelectorAll('.search-bar__item');
     return tagHeader;
 };
 Header();
