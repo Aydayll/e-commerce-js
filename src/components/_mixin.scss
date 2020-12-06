@@ -1,9 +1,7 @@
-@mixin font($family:"Poppins", sans-serif, $size, $weight: 700, $line) {
+@mixin font($family, $size, $weight: 700) {
 	font-family: $family;
 	font-size: $size;
 	font-weight: $weight;
-	line-height: $line;
-	font-style: normal;
 }
 @mixin position($pos, $top: auto, $right: auto, $bottom: auto, $left: auto) {
 	position: $pos;

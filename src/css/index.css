@@ -1,12 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap");
 * {
- 
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
-body{
+
+body {
   font-family: 'Poppins', sans-serif;
 }
+
 .container {
   max-width: 1260px;
   margin: 0 auto;
@@ -19,15 +20,11 @@ li {
 }
 
 a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   text-decoration: none;
 }
 
 span {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -37,27 +34,18 @@ img {
 
 .header__top {
   padding: 16px 45px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   border-bottom: 2px solid #f9f9f9;
 }
 
 .header__middle {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
-  padding: 44px 45px;
+  padding: 45px 0;
 }
 
-
 .contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -69,17 +57,19 @@ img {
   margin-right: 0;
 }
 
+.contact__link {
+  font-weight: 400;
+  color: #151515;
+  transition: 0.4s;
+}
+
 .contact__link:hover {
   color: #6A983C;
   opacity: 0.6;
   cursor: pointer;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
 }
 
 .nav__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -93,37 +83,35 @@ img {
 
 .nav__link {
   color: #6A983C;
+  transition: 0.4s;
 }
 
 .nav__link:hover {
   color: #151515;
   cursor: pointer;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
 }
 
-.search-bar{
+.search-bar {
   align-items: center;
   display: flex;
   padding: 10px 16px;
-  background-color:#f9f9f9;
+  background-color: #f9f9f9;
   max-height: 42px;
   border-radius: 12px;
-  
 }
-.search-bar__list{
+
+.search-bar__list {
   max-height: 23px;
 }
-.search-bar__input{
-  padding: 3px 0 3px 24px;
-  margin-left: 24px;
+
+.search-bar__input {
+  padding-left: 42px;
   border: none;
   outline: none;
-  background-color: transparent;
-  border-left: 2px solid #d1d1d1;
 }
-.search-bar__title{
-  font-weight: 700;
-  height: 23px;
-  left: 16px;
+
+.search-bar__title {
+  font-family: 16px;
+  font-size: 700;
+  font-weight: 23px;
 }

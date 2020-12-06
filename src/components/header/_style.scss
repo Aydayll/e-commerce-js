@@ -10,10 +10,6 @@
         justify-content: space-between;
         padding: 45px 0;
     }
-    &__icons{
-        display: flex;
-       
-    }
     
 }
 .contact{
@@ -25,7 +21,8 @@
         }
     }
     &__link{
-        @include font( $font-open, 12px, 400, 16px,);
+        
+        font-weight: 400;
         color: $color-black;
         transition: 0.4s;
         &:hover{
@@ -48,7 +45,7 @@
 
     }
     &__link{
-        @include font( $font-open, 12px, 400, 16px,);
+       
         color: $color-green;
         transition: 0.4s;
         &:hover{
@@ -73,8 +70,9 @@
         outline: none;
     }
     &__title{
-        @include font(16px, 700, 23px)
+        @include font(16px, 700, 23px);
     }
 }
+
 
 
