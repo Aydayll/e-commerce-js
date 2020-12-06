@@ -63,14 +63,13 @@
     border-radius: 12px;
     &__item{
         display: none;
+        &.is-active{
+                display: block;
+        }
     }
     &__list{
     max-height: 23px;
-    &.is-active{
-        li{
-            display: block;
-        }
-    }
+    
     }
     &__title{
         @include font($font-poppins, 15px, 700, 22px);

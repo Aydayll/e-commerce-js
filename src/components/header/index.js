@@ -26,6 +26,10 @@ const Header = () => {
     `;
     document.body.append (tagHeader);
 const li = document.querySelectorAll('.search-bar__item');
+const h3 = document.querySelector('.search-bar__title');
+h3.addEventListener('click', () => {
+    li.forEach(item => item.classList.toggle('is-active'))
+})
     return tagHeader;
 };
 Header();
