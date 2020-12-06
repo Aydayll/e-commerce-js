@@ -63,7 +63,7 @@
     max-height: 42px;
     border-radius: 12px;
     &__list{
-        width: 120px;
+        width: 140px;
         max-height: 23px;
         &.is-active{
             li{ 
@@ -87,12 +87,22 @@
             border-bottom-left-radius: 15px;
             border-bottom-right-radius: 15px;
         }
+        &:nth-child(2){
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        &:hover{
+            background-color: $color-green;
+            a{
+                color: $color-white;
+            }
+        }
     }
     &__link{
         @include font($font-open, 14px, 400, 19px); 
-        padding: 10px;
-        color: $color-gray;
-
+        padding: 10px 15px;
+        color: $color-black;
+       
     }
     &__title{
         @include font($font-poppins, 15px, 700, 22px);
@@ -102,7 +112,7 @@
             position: absolute;
             top: 50%;
             right: -20px;
-            max-width: 16px;
+            max-width: 20px;
             transition: 0.3s;
         }
         &.is-active{
@@ -134,6 +144,7 @@
         border: none;
         outline: none;
         background-color: transparent;
+        cursor: pointer;
     }
 }
 

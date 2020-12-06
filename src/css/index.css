@@ -109,7 +109,7 @@ img {
 }
 
 .search-bar__list {
-  width: 120px;
+  width: 140px;
   max-height: 23px;
 }
 
@@ -137,13 +137,26 @@ img {
   border-bottom-right-radius: 15px;
 }
 
+.search-bar__item:nth-child(2) {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.search-bar__item:hover {
+  background-color: #6A983C;
+}
+
+.search-bar__item:hover a {
+  color: #fff;
+}
+
 .search-bar__link {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 19px;
-  padding: 10px;
-  color: #d1d1d1;
+  padding: 10px 15px;
+  color: #151515;
 }
 
 .search-bar__title {
@@ -159,7 +172,7 @@ img {
   position: absolute;
   top: 50%;
   right: -20px;
-  max-width: 16px;
+  max-width: 20px;
   transition: 0.3s;
 }
 
@@ -197,4 +210,5 @@ img {
   border: none;
   outline: none;
   background-color: transparent;
+  cursor: pointer;
 }
