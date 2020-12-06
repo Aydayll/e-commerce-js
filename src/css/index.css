@@ -221,3 +221,7 @@ img {
 .search-bar__btn.is-active {
   transform: rotate(-90deg);
 }
+
+.system__list {
+  display: flex;
+}
