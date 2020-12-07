@@ -18,7 +18,8 @@ const newArray= ulTitles.map((item) =>{
     return h3;
 });
 div.innerHTML = `${newArray.map((item)=> item.outerHTML).join('')}
-;`
+`;
+div.className = 'dropdown__wrapper'
 return div.outerHTML
 };
 export default DropDowns();
