@@ -164,13 +164,17 @@
     }
     &__item{
         margin-left: 40px;
+        position: relative;
+       
     }
     &__count{
         @include font($font-open, 12px, 600, 18px);
         display: flex;
         justify-content: center;
+        position: absolute;
         left: 0;
         bottom: 0;
+        top: 50%;
         background-color: $color-red;
         color: $color-white;
         border-radius: 50%;  

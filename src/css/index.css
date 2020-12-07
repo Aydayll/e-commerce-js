@@ -233,6 +233,7 @@ img {
 
 .system__item {
   margin-left: 40px;
+  position: relative;
 }
 
 .system__count {
@@ -242,8 +243,10 @@ img {
   line-height: 18px;
   display: flex;
   justify-content: center;
+  position: absolute;
   left: 0;
   bottom: 0;
+  top: 50%;
   background-color: #E5704B;
   color: #fff;
   border-radius: 50%;
