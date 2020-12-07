@@ -11,6 +11,9 @@
         align-items: center;
         padding: 45px 45px;
     }
+    &__bottom{
+        padding: 0 45px;
+    }
     
 }
 .contact{
@@ -108,7 +111,8 @@
         @include font($font-poppins, 15px, 700, 22px);
         position: relative;
         cursor: pointer;
-        margin-bottom: 5px;
+        margin-top: -1px;
+       
         img{
             position: absolute;
             top: 50%;
@@ -164,7 +168,7 @@
         @include font($font-open, 12px, 600, 18px);
         display: flex;
         justify-content: center;
-        position: absolute;
+       
         left: 0;
         bottom: 0;
         background-color: $color-red;
@@ -175,6 +179,11 @@
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
     }
 }
-
+.dropdown{
+  &__title{
+    @include font($font-poppins, 15px, 500, 22px);
+    margin-right: 54px;
+  }
+}
 
 

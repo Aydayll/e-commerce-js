@@ -46,6 +46,10 @@ img {
   padding: 45px 45px;
 }
 
+.header__bottom {
+  padding: 0 45px;
+}
+
 .contact {
   display: flex;
 }
@@ -166,7 +170,7 @@ img {
   line-height: 22px;
   position: relative;
   cursor: pointer;
-  margin-bottom: 5px;
+  margin-top: -1px;
 }
 
 .search-bar__title img {
@@ -237,7 +241,6 @@ img {
   line-height: 18px;
   display: flex;
   justify-content: center;
-  position: absolute;
   left: 0;
   bottom: 0;
   background-color: #E5704B;
@@ -246,4 +249,12 @@ img {
   min-width: 16px;
   min-height: 16px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.dropdown__title {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-right: 54px;
 }

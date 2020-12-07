@@ -9,11 +9,13 @@ ul.innerHTML = `
   </a>
 </li>
 <li class="system__item">
+
   <a href="#">
    <img src ="./src/images/basket.svg" alt="layer"/>
   </a>
+  <span class="system__count">4</span>
 </li>
-<span class="system__count">4</span>
+
 `;
 div.append(ul);
 

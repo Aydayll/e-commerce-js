@@ -3,7 +3,7 @@ import Nav from './nav.js';
 import Logo from './logo.js';
 import searchBar from './searchbar.js';
 import System from './system.js';
-
+import DropDowns from './dropdowns.js';
 const Header = () => {
     const tagHeader = document.createElement ('header');
     tagHeader.innerHTML = `
@@ -17,7 +17,9 @@ const Header = () => {
     ${searchBar}
     ${System}
     </div>
-    <div class="header__bottom"></div>
+    <div class="header__bottom">
+    ${DropDowns}
+    </div>
     </div>
     `;
     document.body.append (tagHeader);
