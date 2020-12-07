@@ -16,11 +16,11 @@ const newArray= ulTitles.map((item) =>{
     h3.className = 'dropdown__title';
     h3.innerHTML = `${item}
     <ul class="dropdown__list">
-        <li>${item}</li>
-        <li>${item}</li>
-        <li>${item}</li>
-        <li>${item}</li>
-        <li>${item}</li>
+        <li class="dropdown__item">${item}</li>
+        <li class="dropdown__item">${item}</li>
+        <li class="dropdown__item">${item}</li>
+        <li class="dropdown__item">${item}</li>
+        <li class="dropdown__item">${item}</li>
      </ul>
  `;
     return h3;

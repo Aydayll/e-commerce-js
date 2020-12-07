@@ -274,3 +274,12 @@ img {
 .dropdown__list.is-active {
   display: block;
 }
+
+.dropdown__item {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  padding: 0 10px;
+  background-color: #f9f9f9;
+}

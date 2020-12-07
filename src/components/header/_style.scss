@@ -196,6 +196,13 @@
           display: block;
       }
   }
+  &__item{
+    @include font($font-poppins, 15px, 500, 23px);
+      padding: 0 10px;
+      background-color: $color-lightGray;
+     
+  }
 }
+
 
 
