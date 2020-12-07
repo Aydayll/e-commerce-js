@@ -48,6 +48,7 @@ img {
 
 .header__bottom {
   padding: 0 45px;
+  background-color: #f9f9f9;
 }
 
 .contact {
@@ -175,7 +176,7 @@ img {
 
 .search-bar__title img {
   position: absolute;
-  top: 50%;
+  top: 30%;
   right: -20px;
   max-width: 20px;
   transition: 0.3s;
@@ -251,10 +252,25 @@ img {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
+.dropdown__wrapper {
+  display: flex;
+  cursor: pointer;
+}
+
 .dropdown__title {
   font-family: "Poppins";
   font-size: 15px;
   font-weight: 500;
   line-height: 22px;
   margin-right: 54px;
+  position: relative;
+}
+
+.dropdown__list {
+  display: none;
+  position: absolute;
+}
+
+.dropdown__list.is-active {
+  display: block;
 }
