@@ -14,6 +14,7 @@
     &__bottom{
         padding: 0 45px;
         background-color: $color-lightGray;
+        
     }
     
 }
@@ -60,14 +61,13 @@
     }
 }
 .search-bar{
+    padding: 10px 16px;
     align-items: center;
     display: flex;
-    padding: 10px 16px;
-    background-color:$color-lightGray;
     max-height: 42px;
     border-radius: 12px;
     &__list{
-        width: 140px;
+        width: 120px;
         max-height: 23px;
         &.is-active{
             li{ 
@@ -87,6 +87,9 @@
     &__item{
         display: none;
         background-color: $color-lightGray;
+		position: relative;
+		z-index: 1;
+        
         &:last-child{
             border-bottom-left-radius: 15px;
             border-bottom-right-radius: 15px;
@@ -117,8 +120,8 @@
         img{
             position: absolute;
             top: 30%;
-            right: -20px;
-            max-width: 20px;
+            right: -10px;
+            max-width: 14px;
             transition: 0.3s;
         }
         &.is-active{
@@ -187,11 +190,13 @@
     &__wrapper{
         display: flex;
         cursor: pointer;
+        padding: 16px 0;
     }
   &__title{
     @include font($font-poppins, 15px, 500, 22px);
     margin-right: 54px;
     position: relative;
+    cursor: pointer;
   }
   &__list{
       display: none;

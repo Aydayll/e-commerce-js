@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap");
 * {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -105,16 +106,15 @@ img {
 }
 
 .search-bar {
+  padding: 10px 16px;
   align-items: center;
   display: flex;
-  padding: 10px 16px;
-  background-color: #f9f9f9;
   max-height: 42px;
   border-radius: 12px;
 }
 
 .search-bar__list {
-  width: 140px;
+  width: 120px;
   max-height: 23px;
 }
 
@@ -135,6 +135,8 @@ img {
 .search-bar__item {
   display: none;
   background-color: #f9f9f9;
+  position: relative;
+  z-index: 1;
 }
 
 .search-bar__item:last-child {
@@ -177,8 +179,8 @@ img {
 .search-bar__title img {
   position: absolute;
   top: 30%;
-  right: -20px;
-  max-width: 20px;
+  right: -10px;
+  max-width: 14px;
   transition: 0.3s;
 }
 
@@ -258,6 +260,7 @@ img {
 .dropdown__wrapper {
   display: flex;
   cursor: pointer;
+  padding: 16px 0;
 }
 
 .dropdown__title {
@@ -267,6 +270,7 @@ img {
   line-height: 22px;
   margin-right: 54px;
   position: relative;
+  cursor: pointer;
 }
 
 .dropdown__list {
