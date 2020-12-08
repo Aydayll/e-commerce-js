@@ -177,7 +177,7 @@
         position: absolute;
         left: 0;
         bottom: 0;
-        top: 50%;
+        top: 65%;
         background-color: $color-red;
         color: $color-white;
         border-radius: 50%;  
@@ -198,6 +198,9 @@
     position: relative;
     cursor: pointer;
   }
+  &__icon{
+    width: 15px;
+}
   &__list{
       display: none;
       position: absolute;

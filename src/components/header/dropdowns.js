@@ -15,6 +15,7 @@ const newArray= ulTitles.map((item) =>{
     const h3= document.createElement('h3');
     h3.className = 'dropdown__title';
     h3.innerHTML = `${item}
+    <img class ="dropdown__icon" src="./src/images/triangle.svg" alt="icon-arrow-down"/>
     <ul class="dropdown__list">
         <li class="dropdown__item">${item}</li>
         <li class="dropdown__item">${item}</li>

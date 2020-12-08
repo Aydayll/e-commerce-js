@@ -11,7 +11,7 @@ body {
 
 .container {
   max-width: 1260px;
-  margin: 0 auto;
+  margin: auto;
   padding: 0 45px;
 }
 
@@ -248,7 +248,7 @@ img {
   position: absolute;
   left: 0;
   bottom: 0;
-  top: 50%;
+  top: 65%;
   background-color: #E5704B;
   color: #fff;
   border-radius: 50%;
@@ -271,6 +271,10 @@ img {
   margin-right: 54px;
   position: relative;
   cursor: pointer;
+}
+
+.dropdown__icon {
+  width: 15px;
 }
 
 .dropdown__list {
