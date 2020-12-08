@@ -1,8 +1,7 @@
-const Sidebar = (className) => {
-    console.log (className)
+const Sidebar = () => {
    const aside = document.createElement('aside');
 
-   aside.className = `hero__sidebar sidebar ${className}`;
+   aside.className = `hero__sidebar sidebar col-3`;
 
    aside.innerHTML = 'xdrftyghdxfchjbknmlnjk';
    return aside.outerHTML;

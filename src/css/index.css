@@ -306,3 +306,7 @@ img {
   padding: 0 10px;
   background-color: #f9f9f9;
 }
+
+.hero__row {
+  padding: 64px 0;
+}
