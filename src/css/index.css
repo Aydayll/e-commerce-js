@@ -32,6 +32,14 @@ img {
   max-width: 100%;
 }
 
+.col-3 {
+  width: 25%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
 .header__top {
   padding: 16px 45px;
   display: flex;
