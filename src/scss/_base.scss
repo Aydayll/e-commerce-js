@@ -22,6 +22,10 @@ a {
 span{
     display: flex;
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
 img{
     max-width: 100%;
 }
