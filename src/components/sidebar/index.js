@@ -4,7 +4,7 @@ const Sidebar = (className) => {
 
    aside.className = `hero__sidebar sidebar ${className}`;
 
-   aside.innerHTML = 'xdrftyghunjk';
+   aside.innerHTML = 'xdrftyghdxfchjbknmlnjk';
    return aside.outerHTML;
 };
 export default Sidebar();
