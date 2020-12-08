@@ -3,7 +3,7 @@ const Hero = () => {
     heroSection.className = 'hero'
     heroSection.innerHTML = `
     <div class = "container">
-    bfhrjkgblh
+    
     </div>`
 
     return heroSection.outerHTML;
