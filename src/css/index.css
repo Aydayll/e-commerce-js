@@ -379,7 +379,7 @@ img {
   margin: -15px;
 }
 
-.banner__supttile {
+.banner h6 {
   font-family: "Poppins";
   font-size: 12px;
   font-weight: 600;
@@ -402,13 +402,12 @@ img {
   font-size: 15px;
   font-weight: 600;
   line-height: 22px;
-  margin-top: 120px;
+  margin-top: 80px;
   color: #fff;
   border: 2px solid #6A983C;
   padding: 12px 16px;
   width: 150px;
   border-radius: 12px;
-  overflow: hidden;
 }
 
 .banner__link span {
@@ -426,6 +425,7 @@ img {
   z-index: -1;
   height: 290px;
   max-width: 420px;
+  border-radius: 12px;
 }
 
 .banner__image::before {

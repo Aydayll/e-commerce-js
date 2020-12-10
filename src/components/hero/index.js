@@ -1,5 +1,5 @@
 import Sidebar from '../sidebar/index.js';
-import { titleOfSidebar, listItemsOfSidebar, btnTextOfSidebar, img1, img2 } from './const.js';
+import {menuData, img1, img2 } from './const.js';
 import Banner from './banner.js';
 
 const Hero = () => {
@@ -10,11 +10,11 @@ const Hero = () => {
   heroSection.innerHTML = `
 	<div class="container">
 		<div class="row hero__row">
-			${Sidebar(titleOfSidebar, listItemsOfSidebar, btnTextOfSidebar)}
+			${Sidebar(menuData[0].title, menuData[0].listItems,menuData[0].btnText)}
 			<div class="hero__content  banner__row row col-9">${Banner (img1)}${Banner (img2)}</div>
 		</div>
 		<div class="row hero__row">
-			${Sidebar(titleOfSidebar, listItemsOfSidebar, btnTextOfSidebar)}
+			${Sidebar(menuData[0].title, menuData[0].listItems,menuData[0].btnText)}
 			<div class="hero__content  banner__row row col-9">${Banner (img1)}${Banner (img2)}</div>
 		</div>
 	</div>
