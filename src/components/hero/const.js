@@ -1,5 +1,6 @@
 
-export  const menuData = [{
+export  const menuData = [
+  {
   title: 'Category Menu',
   listItems: [ 'Bakery',
     'Fruit and vegetables',
@@ -8,6 +9,16 @@ export  const menuData = [{
     'Kitchen',
   ],
   btnText:'More categories',
+},
+{
+  title: 'Best selling products',
+  listItems: [ 'Kitchen',
+    'Meat and fish',
+    'Special nutrition',
+    'Pharmacy',
+    'Baby',
+  ],
+  btnText:'More products',
 },
 ];
 

@@ -14,8 +14,8 @@ const Hero = () => {
 			<div class="hero__content  banner__row row col-9">${Banner (img1)}${Banner (img2)}</div>
 		</div>
 		<div class="row hero__row">
-			${Sidebar(menuData[0].title, menuData[0].listItems,menuData[0].btnText)}
-			<div class="hero__content  banner__row row col-9">${Banner (img1)}${Banner (img2)}</div>
+			${Sidebar(menuData[1].title, menuData[1].listItems,menuData[1].btnText)}
+			<div class="hero__content  banner__row row col-9"></div>
 		</div>
 	</div>
 	`;
