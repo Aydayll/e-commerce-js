@@ -370,7 +370,15 @@ img {
 }
 
 .banner {
+  position: relative;
   padding: 15px;
+}
+
+.banner::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .banner__row {
@@ -399,4 +407,25 @@ img {
   font-weight: 600;
   line-height: 22px;
   color: #151515;
+  border: 2px solid #6A983C;
+  padding: 12px 16px;
+  width: 150px;
+  border-radius: 12px;
+}
+
+.banner__link span {
+  margin-left: 5px;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.banner__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 280px;
+  max-width: 420px;
 }

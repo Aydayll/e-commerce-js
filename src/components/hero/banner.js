@@ -4,6 +4,7 @@ const Banner = (imgSrc) => {
   const h3 = document.createElement('h3');
   const a = document.createElement('a');
   const img = document.createElement('img');
+  const imgWrapper = div.cloneNode();
 
   div.className = 'col-6 banner';
   h6.className = 'banner__suptitle';
@@ -16,13 +17,14 @@ const Banner = (imgSrc) => {
 
   h6.innerText = `Meal Prep Recipes`;
   h3.innerText = `Tomato foccacia`;
-  a.innerHTML = `Read Recipes`;
+  a.innerHTML = `Read Recipes
+   <span>&rsaquo;</span>`;
 
-
+  imgWrapper.append(img);
   div.append(h6);
   div.append(h3);
   div.append(a);
-  div.append(img);
+  div.append(imgWrapper);
   return div.outerHTML;
 };
 export default Banner;
