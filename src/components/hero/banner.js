@@ -1,4 +1,4 @@
-const Banner = () => {
+const Banner = (imgSrc) => {
   const div =  document.createElement('div');
   const h6 = document.createElement('h6');
   const h3 = document.createElement('h3');
@@ -10,10 +10,10 @@ const Banner = () => {
   h3.className = 'banner__title';
   a.className = 'banner__link';
   img.className = 'banner__image';
-  img.src = `https://www.flavcity.com/wp-content/uploads/2018/05/healthy-meal-prep-recipes.jpg`;
+  img.src = imgSrc ;
   a.href = `#`;
 
-  
+
   h6.innerText = `Meal Prep Recipes`;
   h3.innerText = `Tomato foccacia`;
   a.innerHTML = `Read Recipes`;
@@ -25,4 +25,4 @@ const Banner = () => {
   div.append(img);
   return div.outerHTML;
 };
-export default Banner();
+export default Banner;
