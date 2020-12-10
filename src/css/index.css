@@ -311,14 +311,6 @@ img {
   background-color: #f9f9f9;
 }
 
-.hero__row {
-  padding: 64px 0;
-}
-
-.banner {
-  padding: 15px;
-}
-
 .sidebar__title {
   font-family: "Poppins";
   font-size: 18px;
@@ -371,4 +363,40 @@ img {
 
 .sidebar__btn:active {
   transform: scale(0.95);
+}
+
+.hero__row {
+  padding: 64px 0;
+}
+
+.banner {
+  padding: 15px;
+}
+
+.banner__row {
+  margin: -15px;
+}
+
+.banner__supttile {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #6A983C;
+}
+
+.banner__title {
+  font-family: "Poppins";
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  color: #151515;
+}
+
+.banner__link {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #151515;
 }
