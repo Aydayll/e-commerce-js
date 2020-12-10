@@ -11,7 +11,9 @@ const Banner = () => {
   a.className = 'banner__link';
   img.className = 'banner__image';
   img.src = `https://www.flavcity.com/wp-content/uploads/2018/05/healthy-meal-prep-recipes.jpg`;
+  a.href = `#`;
 
+  
   h6.innerText = `Meal Prep Recipes`;
   h3.innerText = `Tomato foccacia`;
   a.innerHTML = `Read Recipes`;
