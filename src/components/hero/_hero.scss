@@ -54,3 +54,15 @@ h6{
     }
 }
 }
+.product{
+    &__item{
+        padding: 16px;
+        border: 2px solid $color-gray;
+    }
+    &__image{
+        border-radius: 12px;
+    }
+    &__title{
+        
+    }
+}
