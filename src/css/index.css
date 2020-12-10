@@ -315,6 +315,10 @@ img {
   padding: 64px 0;
 }
 
+.banner {
+  padding: 15px;
+}
+
 .sidebar__title {
   font-family: "Poppins";
   font-size: 18px;
