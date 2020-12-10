@@ -1,6 +1,7 @@
 import Sidebar from '../sidebar/index.js';
 import {menuData, img1, img2 } from './const.js';
 import Banner from './banner.js';
+import ProductCard from './productCard.js';
 
 const Hero = () => {
   const heroSection = document.createElement('section');
@@ -15,7 +16,7 @@ const Hero = () => {
 		</div>
 		<div class="row hero__row">
 			${Sidebar(menuData[1].title, menuData[1].listItems,menuData[1].btnText)}
-			<div class="hero__content  banner__row row col-9"></div>
+			<div class="hero__content  banner__row row col-9">${ProductCard}</div>
 		</div>
 	</div>
 	`;
