@@ -1,5 +1,6 @@
 import Sidebar from '../sidebar/index.js';
 import { titleOfSidebar, listItemsOfSidebar, btnTextOfSidebar } from './const.js';
+import Banner from './banner.js';
 
 const Hero = () => {
   const heroSection = document.createElement('section');
@@ -10,7 +11,7 @@ const Hero = () => {
 	<div class="container">
 		<div class="row hero__row">
 			${Sidebar(titleOfSidebar, listItemsOfSidebar, btnTextOfSidebar)}
-			<div class="hero__content col-9">Я есть правый контент от сайдбара</div>
+			<div class="hero__content col-9">${Banner}</div>
 		</div>
 	</div>
 	`;
