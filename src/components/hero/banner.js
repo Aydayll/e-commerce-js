@@ -11,6 +11,7 @@ const Banner = (imgSrc) => {
   h3.className = 'banner__title';
   a.className = 'banner__link';
   img.className = 'banner__image';
+  imgWrapper.className = 'banner__image';
   img.src = imgSrc ;
   a.href = `#`;
 
