@@ -310,3 +310,57 @@ img {
 .hero__row {
   padding: 64px 0;
 }
+
+.sidebar__title {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.sidebar__list {
+  margin: 16px 0 48px;
+}
+
+.sidebar__item {
+  margin-top: 12px;
+}
+
+.sidebar__item:first-child {
+  margin-top: 0;
+}
+
+.sidebar__link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #6A983C;
+  text-decoration: underline;
+}
+
+.sidebar__btn {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  display: inline-flex;
+  align-items: center;
+  background-color: #d1d1d1;
+  padding: 12px 22px 12px 16px;
+  border-radius: 12px;
+  color: #151515;
+  transition: 0.2s;
+}
+
+.sidebar__btn span {
+  margin-left: 12px;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.sidebar__btn:active {
+  transform: scale(0.95);
+}
