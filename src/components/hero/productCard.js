@@ -1,4 +1,4 @@
-const ProductCard = () =>{
+const ProductCard = (item) =>{
     const div = document.createElement('div');
     const divItem = div.cloneNode();
     const img = document.createElement('img');
@@ -21,7 +21,7 @@ const ProductCard = () =>{
     spanDiscount.className = 'product__discount';
     flexDiv.className = ' product__flex';
 
-img.src = 'https://www.tasteofhome.com/wp-content/uploads/2018/09/PieCaken_Full-Cake-1-.jpg'
+img.src = item.img
 img.alt = ' The best PieCaken'
 a.href = "#"
 
@@ -44,4 +44,4 @@ spanDiscount.innerHTML = '36%';
 div.append(divItem);
 return div.outerHTML;
 };
-export default ProductCard();
+export default ProductCard;

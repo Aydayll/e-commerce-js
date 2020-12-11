@@ -432,7 +432,7 @@ img {
   left: 0;
   z-index: -1;
   height: 290px;
-  max-width: 420px;
+  max-width: 440px;
   border-radius: 12px;
 }
 
@@ -447,11 +447,82 @@ img {
   z-index: 1;
 }
 
-.product__item {
+.product {
   padding: 16px;
-  border: 2px solid #d1d1d1;
+}
+
+.product__row {
+  margin: -16px;
+}
+
+.product__item {
+  min-height: 100%;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 16px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
 }
 
 .product__image {
   border-radius: 12px;
+}
+
+.product__title {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  margin: 16px 0 4px;
+  color: #151515;
+}
+
+.product__description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-bottom: 16px;
+  color: #575757;
+}
+
+.product__price {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #151515;
+}
+
+.product__btn {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22px;
+  padding: 6px 12px;
+  background: #6A983C;
+  border: 2px solid  #46760a;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.product__flex {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product__old-price {
+  display: none;
+  position: absolute;
+  bottom: -50%;
+}
+
+.product__discount {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
 }

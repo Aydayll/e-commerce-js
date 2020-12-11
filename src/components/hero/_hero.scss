@@ -39,7 +39,7 @@ h6{
     left: 0;
     z-index: -1;
     height: 290px;
-    max-width: 420px;
+    max-width: 440px;
     border-radius: 12px;
     
     &::before{
@@ -55,14 +55,61 @@ h6{
 }
 }
 .product{
+    padding: 16px;
+   
+    &__row{
+        margin: -16px;
+    }
     &__item{
+        min-height: 100%;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        position: relative;
         padding: 16px;
-        border: 2px solid $color-gray;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
     }
     &__image{
         border-radius: 12px;
     }
     &__title{
-        
+        @include font($font-poppins, 16px, 500, 22px);
+        margin:  16px 0 4px ;
+        color: $color-black;
+    }
+    &__description{
+        @include font($font-open, 12px, 500, 16px);
+        margin-bottom: 16px;
+        color: #575757;
+    }
+    &__price{
+        @include font($font-open, 18px, 600, 27px);
+        color: $color-black;
+    }
+    &__btn{
+        @include font($font-open, 15px, 700, 22px);
+        padding: 6px 12px ;
+        background: $color-green;
+        border: 2px solid  #46760a;
+        border-radius: 12px;
+        color: $color-white;
+    }
+    &__flex{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__old-price{
+        display: none;
+        position: absolute;
+        bottom: -50%;
+    }
+    &__discount{
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+
     }
 }
