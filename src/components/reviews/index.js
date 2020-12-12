@@ -12,8 +12,23 @@ const Reviews = () => {
     img.className = 'reviews__image';
     p.className = 'reviews__description';
     div.className = 'reviews__item';
+
+    img.src = './src/images/avatar.jpg';
+    img.alt = 'avatar';
+
+    p.innerHTML = '“ This is an super space for your customers qoute. Don’t worry it works smooth as pie. You will get all what you need by writiing a text here “'
+    h3.innerHTML = ' Name and Surname'
+
+    div.append(p)
+    div.append(h3)
+    div.append(img)
     
-  
+  section.innerHTML = `
+  ${h2.outerHTML}
+  <div class = 'row reviews__row'>
+    ${div.outerHTML}
+  </div>
+  `;
  return section.outerHTML;
 };
 export default Reviews;
