@@ -536,3 +536,11 @@ img {
   top: 0;
   left: 0;
 }
+
+.reviews__item {
+  padding: 24px 32px;
+  max-width: 370px;
+  text-align: center;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
