@@ -57,6 +57,10 @@ img {
   width: 75%;
 }
 
+.pt-120 {
+  padding-top: 120px;
+}
+
 .header__top {
   padding: 16px 45px;
   display: flex;
@@ -449,11 +453,11 @@ img {
 }
 
 .product {
-  padding: 16px;
+  padding: 50px 16px;
 }
 
 .product__row {
-  margin: -16px;
+  margin: -50px -16px;
 }
 
 .product__item {
