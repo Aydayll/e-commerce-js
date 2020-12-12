@@ -1,11 +1,12 @@
-import Header from '../components/header/index.js';
-import Hero from '../components/hero/index.js';
+import Hero from '../components/hero/index.js'; 
+import Reviews from '../components/reviews/index.js';
 
 const Home = () => {
   const homePage = document.createElement('main');
 
   homePage.innerHTML = `
-	${Hero}
+  ${Hero}
+  ${Reviews()}
 	`;
 
   return homePage;
