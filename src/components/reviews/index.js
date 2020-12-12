@@ -7,7 +7,13 @@ const Reviews = () => {
     const img = document.createElement('img')
 
     section.className = 'reviews';
-
+    h2.className = 'reviews__title';
+    h3.className = 'reviews__author';
+    img.className = 'reviews__image';
+    p.className = 'reviews__description';
+    div.className = 'reviews__item';
+    
+  
  return section.outerHTML;
 };
 export default Reviews;
