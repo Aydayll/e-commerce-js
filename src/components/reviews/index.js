@@ -1,12 +1,14 @@
+import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
+
 const Reviews = () => {
     const section = document.createElement('section');
+    const column = document.createElement('div');
     const div = document.createElement('div');
     const p = document.createElement('p');
     const h2 = document.createElement('h2');
     const h3 = document.createElement('h3');
     const img = document.createElement('img');
-    const column = document.createElement('div');
-
+    
     section.className = 'reviews';
     h2.className = 'reviews__title';
     h3.className = 'reviews__author';
@@ -28,7 +30,7 @@ const Reviews = () => {
     
   section.innerHTML = `
   ${h2.outerHTML}
-  <div class = 'row reviews__row'>
+  <div class = 'row reviews__row swiper-wrapper'>
     ${column.outerHTML}
     ${column.outerHTML}
     ${column.outerHTML}
