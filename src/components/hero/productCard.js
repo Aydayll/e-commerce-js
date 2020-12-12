@@ -27,7 +27,7 @@ a.href = "#"
 
 
 h3.innerHTML = 'The best PieCaken';
-p.innerHTML = 'PieCaken is a three-layer cake with two pies inside.';
+p.innerHTML = item.description
 span.innerHTML = '1.48 USD';
 a.innerHTML = 'Buy now';
 spanOldPrice.innerHTML = '48.56';

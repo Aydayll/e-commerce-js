@@ -29,8 +29,8 @@ h6{
     width: 150px;
     border-radius: 12px;
     span {
-        margin-left: 5px;
         @include font($font-poppins, 18px, 700, 22px);
+        margin-left: 5px;
     }
 }
 &__image{
@@ -39,31 +39,30 @@ h6{
     left: 0;
     z-index: -1;
     height: 290px;
-    max-width: 440px;
+    width: 420px;
     border-radius: 12px;
     
     &::before{
         content: '';
         position: absolute;
-        left: 15px;
-        top: 15px;
+        left: 0;
+        top: 0;
         background-color: rgba(0, 0, 0, 0.7);
         width: 100%;
         height: 100%;
         z-index: 1;
+        border-radius: 12px;
     }
 }
 }
 .product{
-    padding: 16px;
-   
+    padding:  16px;
     &__row{
         margin: -16px;
     }
     &__item{
         min-height: 100%;
         margin-right: 20px;
-        margin-bottom: 30px;
         position: relative;
         padding: 16px;
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
@@ -71,6 +70,7 @@ h6{
     }
     &__image{
         border-radius: 12px;
+       
     }
     &__title{
         @include font($font-poppins, 16px, 500, 22px);
@@ -81,6 +81,11 @@ h6{
         @include font($font-open, 12px, 500, 16px);
         margin-bottom: 16px;
         color: #575757;
+        height: 35px;
+		cursor: pointer;
+        &.is-active {
+			height: auto;
+		}
     }
     &__price{
         @include font($font-open, 18px, 600, 27px);
