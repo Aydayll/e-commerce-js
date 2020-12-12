@@ -7,6 +7,7 @@ const Home = () => {
   homePage.innerHTML = `
   ${Hero}
   ${Reviews()}
+  
 	`;
 
   return homePage;

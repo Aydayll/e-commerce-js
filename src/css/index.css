@@ -543,4 +543,29 @@ img {
   text-align: center;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   border-radius: 12px;
+  min-height: 200px;
+}
+
+.reviews__description {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  font: normal 500 16px/23px;
+  text-align: center;
+  color: #151515;
+}
+
+.reviews__author {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  margin: 24px 0 16px;
+  color: #d1d1d1;
+}
+
+.reviews__image {
+  width: 48px;
+  height: 48px;
 }

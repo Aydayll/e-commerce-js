@@ -5,6 +5,21 @@
         text-align: center;
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
         border-radius: 12px;
-
+        min-height: 200px;
+    }
+    &__description{
+        @include font($font-poppins, 16px, 500, 22px);
+        font: normal 500 16px/23px;
+        text-align: center;
+        color: $color-black;
+    }
+    &__author{
+        @include font($font-poppins, 12px, 600, 18px);
+        margin: 24px 0 16px;
+        color: $color-gray;
+    }
+    &__image{
+        width: 48px;
+        height: 48px;
     }
 }
