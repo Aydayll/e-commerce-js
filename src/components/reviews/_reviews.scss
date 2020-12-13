@@ -1,4 +1,7 @@
 .reviews{
+    &__row{
+        flex-wrap: nowrap;
+    }
     &__item{
         padding: 24px 32px;
         max-width: 370px;

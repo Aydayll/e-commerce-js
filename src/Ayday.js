@@ -10,5 +10,5 @@ const Ayday = () => {
       }
     });
 };
-
+ 
 export default Ayday;

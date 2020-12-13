@@ -537,6 +537,10 @@ img {
   left: 0;
 }
 
+.reviews__row {
+  flex-wrap: nowrap;
+}
+
 .reviews__item {
   padding: 24px 32px;
   max-width: 370px;

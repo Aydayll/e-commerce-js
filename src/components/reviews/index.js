@@ -1,4 +1,4 @@
-import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
+
 
 const Reviews = () => {
     const section = document.createElement('section');
@@ -8,6 +8,7 @@ const Reviews = () => {
     const h2 = document.createElement('h2');
     const h3 = document.createElement('h3');
     const img = document.createElement('img');
+    
     
     section.className = 'reviews';
     h2.className = 'reviews__title';
