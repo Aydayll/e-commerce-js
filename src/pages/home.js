@@ -7,7 +7,7 @@ const Home = () => {
 
   homePage.innerHTML = `
   ${Hero}
-  ${Reviews(reviewsData.map((item) => item))}
+  ${Reviews(reviewsData)}
 	`;
   return homePage;
 };
