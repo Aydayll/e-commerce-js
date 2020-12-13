@@ -546,11 +546,32 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1111;
+  z-index: 1;
   height: 100%;
   width: 100px;
-  background-color: rgba(255, 255, 255, 0.5);
-  box-shadow: 0 0 20px 20px rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 20px 20px rgba(255, 255, 255, 0.8);
+}
+
+.reviews::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+  width: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 20px 20px rgba(255, 255, 255, 0.8);
+}
+
+.reviews__title {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  margin-bottom: 40px;
+  margin-left: 45px;
 }
 
 .reviews__row {
