@@ -1,5 +1,3 @@
-
-
 const Reviews = () => {
     const section = document.createElement('section');
     const column = document.createElement('div');
@@ -16,7 +14,7 @@ const Reviews = () => {
     img.className = 'reviews__image';
     p.className = 'reviews__description';
     div.className = 'reviews__item';
-    column.className = 'col-4'
+    column.className = 'col-4 swiper-slide'
 
     img.src = './src/images/avatar.png';
     img.alt = 'avatar';
@@ -30,13 +28,17 @@ const Reviews = () => {
     column.append(div);
     
   section.innerHTML = `
-  ${h2.outerHTML}
-  <div class = 'row reviews__row swiper-wrapper'>
+  <div class = 'swiper-container'>
+  <div class = 'swiper-wrapper'>
+    ${column.outerHTML}
+    ${column.outerHTML}
+    ${column.outerHTML}
     ${column.outerHTML}
     ${column.outerHTML}
     ${column.outerHTML}
     ${column.outerHTML}
   </div>
+  
   `;
  return section.outerHTML;
 };

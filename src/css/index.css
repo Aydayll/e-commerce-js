@@ -537,6 +537,17 @@ img {
   left: 0;
 }
 
+.reviews {
+  position: relative;
+}
+
+.reviews::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .reviews__row {
   flex-wrap: nowrap;
 }
