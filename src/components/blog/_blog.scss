@@ -1,3 +1,9 @@
 .blog{
-    
+    padding-top: 70px;
+    padding-bottom: 65px;
+    &__title{
+        @include font($font-poppins, 18px, 600, 27px);
+        color: $color-black;
+        margin-bottom: 35px;
+    }
 }

@@ -651,3 +651,17 @@ img {
   height: 48px;
   border-radius: 50%;
 }
+
+.blog {
+  padding-top: 70px;
+  padding-bottom: 65px;
+}
+
+.blog__title {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #151515;
+  margin-bottom: 35px;
+}

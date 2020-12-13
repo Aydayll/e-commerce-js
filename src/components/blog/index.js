@@ -1,7 +1,9 @@
 import BigPost from "./bigPost.js";
 
 const Blog = () => {
-    const section = document.createElement('div');
+    const section = document.createElement('section');
+
+    section.className = 'blog'
 
     section.innerHTML = `
   <div class= "container">
