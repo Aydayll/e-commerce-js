@@ -14,7 +14,6 @@ document.body.append(rootDiv);
 
 document.body.append(rootDiv);
   Ayday();
-  
 return rootDiv;
 };
 root();

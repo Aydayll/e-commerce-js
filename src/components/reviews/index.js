@@ -38,6 +38,7 @@ const Reviews = () => {
     ${column.outerHTML}
     ${column.outerHTML}
   </div>
+  </div>
   
   `;
  return section.outerHTML;

@@ -546,6 +546,11 @@ img {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 1111;
+  height: 100%;
+  width: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 20px 20px rgba(255, 255, 255, 0.5);
 }
 
 .reviews__row {
@@ -558,7 +563,6 @@ img {
   text-align: center;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   border-radius: 12px;
-  min-height: 200px;
 }
 
 .reviews__description {
