@@ -12,9 +12,9 @@ const Banner = (imgSrc) => {
   a.className = 'banner__link';
   img.className = 'banner__image';
   imgWrapper.className = 'banner__image';
+
   img.src = imgSrc ;
   a.href = `#`;
-
 
   h6.innerText = `Meal Prep Recipes`;
   h3.innerText = `Tomato foccacia`;
