@@ -7,3 +7,26 @@
         margin-bottom: 35px;
     }
 }
+.big-post{
+    &__item{
+        position: relative;
+        background-color: red;
+        &::before{
+            content: '';
+            width: 470px;
+            height: 400px;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+    }
+    &__background{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 470px;
+        height: 400px;
+        z-index: -1;
+    }
+    &__title{
+        
+    }
+}

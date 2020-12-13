@@ -49,6 +49,10 @@ img {
   width: 33.33%;
 }
 
+.col-5 {
+  width: 41.66%;
+}
+
 .col-6 {
   width: 50%;
 }
@@ -664,4 +668,25 @@ img {
   line-height: 27px;
   color: #151515;
   margin-bottom: 35px;
+}
+
+.big-post__item {
+  position: relative;
+  background-color: red;
+}
+
+.big-post__item::before {
+  content: '';
+  width: 470px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.big-post__background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 470px;
+  height: 400px;
+  z-index: -1;
 }
